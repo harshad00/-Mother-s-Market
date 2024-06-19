@@ -96,7 +96,7 @@ function Home() {
                <p className="text-black text-center font-semibold text-xl sm:text-2xl md:text-3xl lg:text-4xl mt-4">
                  Nourish your family with the freshest local produce and handmade goods.
                </p>
-               <div className="flex flex-col sm:flex-row justify-center sm:justify-end mt-8 sm:mt-12">
+               <div className="flex flex-col  sm:flex-row justify-center sm:justify-end mt-8 sm:mt-12">
                  <Link to='/weekend'>
                    <button
                      type="button"
@@ -105,7 +105,7 @@ function Home() {
                      Visit Us This Weekend
                    </button>
                  </Link>
-                 <Link to='/login'>
+                 <Link to='/login' className="flex justify-center">
                    <button
                      type="button"
                      className="rounded-md border border-black hover:shadow-black px-4 py-2 text-sm font-semibold text-black shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black mx-2"

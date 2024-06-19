@@ -30,7 +30,7 @@ function Footer() {
                             <ul>
                                 <li className="mb-4">
                                     <Link
-                                        className=" text-base font-medium text-gray-900 hover:text-gray-700"
+                                        className=" text-base font-medium text-gray-200 hover:text-white"
                                         to="/"
                                     >
                                         Features
@@ -38,7 +38,7 @@ function Footer() {
                                 </li>
                                 <li className="mb-4">
                                     <Link
-                                        className=" text-base font-medium text-gray-900 hover:text-gray-700"
+                                        className=" text-base font-medium text-gray-200 hover:text-white"
                                         to="/"
                                     >
                                         Pricing
@@ -46,7 +46,7 @@ function Footer() {
                                 </li>
                                 <li className="mb-4">
                                     <Link
-                                        className=" text-base font-medium text-gray-900 hover:text-gray-700"
+                                        className=" text-base font-medium text-gray-200 hover:text-white"
                                         to="/"
                                     >
                                         Affiliate Program
@@ -54,7 +54,7 @@ function Footer() {
                                 </li>
                                 <li>
                                     <Link
-                                        className=" text-base font-medium text-gray-900 hover:text-gray-700"
+                                        className=" text-base font-medium text-gray-200 hover:text-white"
                                         to="/"
                                     >
                                         Press Kit
@@ -71,7 +71,7 @@ function Footer() {
                             <ul>
                                 <li className="mb-4">
                                     <Link
-                                        className=" text-base font-medium text-gray-900 hover:text-gray-700"
+                                        className=" text-base font-medium text-gray-200 hover:text-white"
                                         to="/"
                                     >
                                         Account
@@ -79,7 +79,7 @@ function Footer() {
                                 </li>
                                 <li className="mb-4">
                                     <Link
-                                        className=" text-base font-medium text-gray-900 hover:text-gray-700"
+                                        className=" text-base font-medium text-gray-200 hover:text-white"
                                         to="/"
                                     >
                                         Help
@@ -87,7 +87,7 @@ function Footer() {
                                 </li>
                                 <li className="mb-4">
                                     <Link
-                                        className=" text-base font-medium text-gray-900 hover:text-gray-700"
+                                        className=" text-base font-medium text-gray-200 hover:text-white"
                                         to="/"
                                     >
                                         Contact Us
@@ -95,7 +95,7 @@ function Footer() {
                                 </li>
                                 <li>
                                     <Link
-                                        className=" text-base font-medium text-gray-900 hover:text-gray-700"
+                                        className=" text-base font-medium text-gray-200 hover:text-white"
                                         to="/"
                                     >
                                         Customer Support
@@ -112,7 +112,7 @@ function Footer() {
                             <ul>
                                 <li className="mb-4">
                                     <Link
-                                        className=" text-base font-medium text-gray-900 hover:text-gray-700"
+                                        className=" text-base font-medium text-gray-200 hover:text-white"
                                         to="/"
                                     >
                                         Terms &amp; Conditions
@@ -120,7 +120,7 @@ function Footer() {
                                 </li>
                                 <li className="mb-4">
                                     <Link
-                                        className=" text-base font-medium text-gray-900 hover:text-gray-700"
+                                        className=" text-base font-medium text-gray-200 hover:text-white"
                                         to="/"
                                     >
                                         Privacy Policy
@@ -128,7 +128,7 @@ function Footer() {
                                 </li>
                                 <li>
                                     <Link
-                                        className=" text-base font-medium text-gray-900 hover:text-gray-700"
+                                        className=" text-base font-medium text-gray-200 hover:text-white"
                                         to="/"
                                     >
                                         Licensing
