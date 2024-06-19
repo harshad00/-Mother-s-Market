@@ -21,10 +21,10 @@ import React from 'react'
           Nourish your family with the freshest local produce and handmade goods.
           </p>
         </div>
-        <div className="mx-auto max-w-7xl py-12 md:py-24">
-          <div className="grid items-center justify-items-center gap-x-4 gap-y-10 lg:grid-cols-2">
+        <div className="mx-auto max-w-7xl py-12 md:py-15">
+          <div className="grid items-center justify-items-center gap-x-4 gap-y-5 lg:grid-cols-2">
             {/* contact from */}
-            <div className="flex items-center justify-center">
+            <div className="flex items-center bg-red-300 p-5 rounded-md justify-center">
               <div className="px-2 md:px-12">
                 <p className="text-2xl font-bold text-gray-900 md:text-4xl">Get in touch</p>
                 <p className="mt-4 text-lg text-white">
@@ -97,10 +97,10 @@ import React from 'react'
                       Message
                     </label>
                     <textarea
-                      className="flex h-10 w-full rounded-md border border-gray-300 bg-transparent px-3 py-2 text-sm placeholder:text-gray-400 focus:outline-none focus:ring-1 focus:ring-gray-400 focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50 dark:border-gray-700 dark:text-gray-50 dark:focus:ring-gray-400 dark:focus:ring-offset-gray-900"
+                      className="flex h-30 w-full rounded-md border border-gray-300 bg-transparent px-3 py-2 text-sm placeholder:text-gray-400 focus:outline-none focus:ring-1 focus:ring-gray-400 focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50 dark:border-gray-700 dark:text-gray-50 dark:focus:ring-gray-400 dark:focus:ring-offset-gray-900"
                       id="message"
                       placeholder="Leave us a message"
-                      cols={3}
+                      cols={6}
                     />
                   </div>
                   <button
