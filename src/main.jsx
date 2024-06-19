@@ -7,9 +7,12 @@ import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import { Provider } from 'react-redux';
 import store from './store/store.js'
+import Weekend from './pages/Weekend.jsx'
 import Signup from './pages/Signup.jsx'
 import { AuthLayout, Login } from './components/index.js'
-
+import Vendors from './pages/Vendors.jsx'
+import Gallery from './pages/Gallery.jsx'
+import ContactUs from './pages/ContactUs.jsx'
 
 const router = createBrowserRouter([
   {
@@ -39,6 +42,22 @@ const router = createBrowserRouter([
       {
         path: "/about-us",
         element: <AboutUs/>,
+      },
+      {
+        path: "/contactUs",
+        element: <ContactUs/>,
+      },
+      {
+        path: "/weekend",
+        element: <Weekend/>,
+      },
+      {
+        path: "/vendors",
+        element: <Vendors/>,
+      },
+      {
+        path: "/gallery",
+        element: <Gallery/>,
       },
     ]
   },

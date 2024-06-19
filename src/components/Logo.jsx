@@ -1,10 +1,11 @@
+import React from 'react';
 
-function Logo(width = '100px') {
-
-  return  <div className={`${width}
-   font-bold  text-r`}>
-     Mother&apos;s Market</div>;
-  
+function Logo({ className }) {
+  return (
+    <div className={`font-bold text-[#EF1717] ${className}`}>
+      Mother&apos;s Market
+    </div>
+  );
 }
 
 export default Logo;

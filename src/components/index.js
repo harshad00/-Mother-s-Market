@@ -8,6 +8,8 @@ import Signup from './Signup';
 import Button from './Button';
 import Input from './Input';
 import Login from './Login';
+import Card from './Card';
+import Slider from './Slider';
 
 
 export {
@@ -20,5 +22,7 @@ export {
     Signup,
     Button,
     Input,
-    Login
+    Login,
+    Card,
+    Slider
 }

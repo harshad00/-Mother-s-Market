@@ -1,0 +1,21 @@
+.hero {
+    width: 100%;
+    height: 90vh;
+    position: relative; /* Ensure the pseudo-element is positioned relative to this element */
+
+}
+
+.hero::before {
+    content: '';
+    position: absolute; /* Position it absolutely within the .hero element */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; /* Match the height of the .hero element */
+    background-image: url('/img/bgimg.jpg');
+    background-size: cover; /* Ensure the image covers the entire pseudo-element */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-position: center center; /* Center the image */
+    opacity:.7;/* Apply opacity for overlay effect*/
+      z-index: -1;/* Ensure the pseudo-element is behind the content of .hero*/
+}
