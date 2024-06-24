@@ -11,8 +11,10 @@ function App() {
     <div className='w-full min-h-screen flex flex-wrap content-baseline '>
       <div className='w-full block'>
         <Header />
-        <main>
+        <main> 
+          <div >
           <Outlet />
+          </div>
         </main>
         <Footer />
       </div>
